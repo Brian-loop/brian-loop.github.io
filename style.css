@@ -1,0 +1,20 @@
+.titulo-nome>h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+
+}
+.titulo-nome>h5{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.dados-de-contato, .dados-pessoais{
+    display: flex;
+    flex-direction: column;
+}
+.dados-de-contato strong, .dados-pessoais strong{
+    text-transform: capitalize;
+}
+.dados-de-contato label, .dados-pessoais label{
+    margin-top: 5px;
+}
+
