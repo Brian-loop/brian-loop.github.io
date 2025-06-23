@@ -18,7 +18,7 @@
     margin-top: 5px;
 }
 .dados-de-contato>div{
-    width: 50%;
+    
     margin: 0 auto;
     border: 2px solid black;
     border-radius: 20px;
@@ -30,7 +30,6 @@
     transition: ease-out 0.2s;
     box-shadow: 3px 3px 10px rgb(127, 107, 107);
 }
-
 /*===============================================*/
 .formacao>h3, .experiencia>h3, .idiomas>h3, .projetos>h3{
     border-bottom: 2px solid black;
@@ -43,7 +42,7 @@
     border: 2px solid black;
     border-radius: 15px;
     padding: 10px;
-    height: 100px;
+    
 }
 .formacao .cartao:hover{
     scale: 1.02;
@@ -60,11 +59,16 @@
     border: 2px solid black;
     border-radius: 15px;
     padding: 10px;
-    height: 100px;
     margin: 3px;
 }
 .experiencia .cartao:hover{
     scale: 1.02;
     transition: ease-out 0.2s;
     box-shadow: 3px 3px 10px rgb(127, 107, 107);
+}
+@media screen and (max-width:1200px) and (min-width:769px){
+    
+}
+@media screen and (max-width:768px) {
+    
 }
